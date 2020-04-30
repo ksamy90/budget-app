@@ -5,6 +5,7 @@
   "author": "ksamy90",
   "license": "MIT",
   "scripts": {
+    "start": "node server/server.js",
     "serve": "live-server public/",
     "build": "webpack",
     "prod": "webpack -p --env production",
